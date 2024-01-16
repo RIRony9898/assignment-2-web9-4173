@@ -21,7 +21,7 @@
   nav .nav-list,
   .banner-form,
   .popular-tour,
-  .newsletter {
+  .newsletter, .video {
     flex-direction: column;
     gap: 10px;
   }
@@ -75,6 +75,10 @@
 
   .choose-us .choose-us-cards .card {
     margin-bottom: 16px;
+  }
+
+  .video img {
+    width: 100%;
   }
 
   .newsletter .newsletter-img {

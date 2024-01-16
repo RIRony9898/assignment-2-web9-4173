@@ -298,6 +298,65 @@ nav span {
   line-height: 26px; /* 162.5% */
 }
 
+/* Discount section */
+.discount .discount-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* .discount .discount-cards {
+/* display: flex;
+flex-direction: column; */
+/* gap: 10px; */
+/* } */ 
+
+.discount .discount-card-1{
+  background: url('/Images/discount-1.png');
+  height: 500px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+.discount .discount-card-2{
+  background: url('/Images/discount-2.png');
+  height: 500px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+/* Video section style */
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+
+.video .video-content ul {
+  padding: 20px;
+}
+
+.video .video-content ul li {
+  margin-bottom: 10px;
+}
+
+
+
+/* .video .video-img .video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(243, 8, 8);
+  font-size: 28px;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.video .video-img img {
+  position: relative;
+  } */
+
 /* Newsletter section style */
 .newsletter {
   display: flex;
