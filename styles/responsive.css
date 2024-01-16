@@ -1,17 +1,22 @@
 /* Tablet devices */
-@media screen and (min-width: 600px) and (max-width: 992px) {
+/* @media screen and (min-width: 600px) and (max-width: 992px) {
   nav,
   nav .nav-list {
     flex-direction: column;
     gap: 10px;
   }
-}
+} */
 
 /* Mobile devices */
 @media screen and (max-width: 600px) {
-  nav,
+  
+main {
+    margin: 20px 20px;
+}
+  
+    nav,
   nav .nav-list,
-  .banner-form {
+  .banner-form, .popular-tour {
     flex-direction: column;
     gap: 10px;
   }

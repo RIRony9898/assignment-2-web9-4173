@@ -5,7 +5,6 @@
 * {
   font-family: "Mulish", sans-serif;
   padding: 0px;
-  margin: 0px;
   max-width: 1250px;
   margin: 0px auto;
 }
@@ -23,6 +22,24 @@
   font-size: 1rem;
   font-weight: 700;
   padding: 16px 36px;
+}
+
+.section-title {
+  color: var(--secondary-color);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+main {
+    margin: 50px 135px;
 }
 
 /* Header related style start*/
@@ -132,6 +149,27 @@ nav span {
 /* Header related style end*/
 
 /* Main related style start*/
+
+/* Our popular tour section */
+.popular-tour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.popular-tour .popular-tour-img {
+    width: 100%;
+}
+
+.popular-tour .popular-tour-item {
+margin: 20px;
+padding-right: 20px;
+}
+
+.popular-tour .popular-tour-content .primary-btn {
+    margin : 20px 0px;
+}
 /* Main related style end*/
 
 /* Footer related style start*/
