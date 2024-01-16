@@ -1,8 +1,67 @@
 /* Mulish google font */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
 
+/* Shared styles */
 * {
-    font-family: 'Mulish', sans-serif;
-    padding: 0px;
-    margin: 0px;
+  font-family: "Mulish", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  max-width: 1250px;
+  margin: 0px auto;
 }
+
+:root {
+  --primary-color: #ff5400;
+  --secondary-color: #131318;
+}
+
+/* Header related style start*/
+/* NavBar related style */
+nav {
+  /* border: 2px solid red; */
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  /* border: 2px solid rgb(18, 201, 58); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+nav .logo .logo-title {
+  color: var(--secondary-color);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+nav .nav-list {
+  /* border: 2px solid rgb(182, 21, 120); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+nav .nav-list a {
+  color: #424247;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+nav span {
+  color: var(--primary-color);
+}
+/* Header related style end*/
+
+/* Main related style start*/
+/* Main related style end*/
+
+/* Footer related style start*/
+/* Footer related style end*/
