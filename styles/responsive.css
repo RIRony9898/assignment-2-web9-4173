@@ -66,6 +66,7 @@
 
   .choose-us .choose-us-content .choose-us-description {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .choose-us .choose-us-cards {
@@ -77,11 +78,13 @@
   }
 
   .newsletter .newsletter-img {
-    width: 60%;
+    width: 98%;
+    margin: 0px;
   }
 
   .newsletter .newsletter-content {
     width: 80%;
+    margin: 0px;
   }
 
   .newsletter .newsletter-img img{

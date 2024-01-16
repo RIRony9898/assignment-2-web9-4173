@@ -187,11 +187,11 @@ nav span {
 
 .choose-destination .choose-destination-images {
   display: grid;
-  width: auto;
-  grid-auto-flow: row dense;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 5px;
+  align-items: center;
+  justify-items: center;
   grid-template-areas:
     "a a a a a a b b b b b b"
     "c c c c c d d d d e e e"
@@ -227,7 +227,7 @@ nav span {
   grid-area: g;
 }
 
-.choose-destination .choose-destination-images img {
+.choose-destination .choose-destination-images .grid-item img {
   object-fit: cover;
   height: 100%;
   width: 100%;
