@@ -9,14 +9,19 @@
 
 /* Mobile devices */
 @media screen and (max-width: 600px) {
-  
-main {
+  main {
     margin: 20px 20px;
-}
-  
-    nav,
+  }
+
+  main section {
+    margin-bottom: 20px;
+  }
+
+  nav,
   nav .nav-list,
-  .banner-form, .popular-tour {
+  .banner-form,
+  .popular-tour,
+  .newsletter {
     flex-direction: column;
     gap: 10px;
   }
@@ -27,7 +32,7 @@ main {
     margin: 0px 20px;
   }
 
- .banner .banner-title {
+  .banner .banner-title {
     font-size: 22px;
   }
 
@@ -38,12 +43,50 @@ main {
 
   .banner .banner-form {
     width: auto;
-flex-direction: column;
-align-items: flex-start;
-gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
   }
 
   .banner-form button {
+    width: 100%;
+  }
+
+  .choose-destination .choose-destination-content .section-description {
+    width: 100%;
+  }
+
+  .choose-destination .choose-destination-images {
+    display: block;
+  }
+
+  .choose-destination .choose-destination-images img {
+    margin-bottom: 10px;
+  }
+
+  .choose-us .choose-us-content .choose-us-description {
+    width: 100%;
+  }
+
+  .choose-us .choose-us-cards {
+    display: block;
+  }
+
+  .choose-us .choose-us-cards .card {
+    margin-bottom: 16px;
+  }
+
+  .newsletter .newsletter-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  footer {
+    margin: 20px;
+    padding: 30px 40px;
+  }
+
+  .footer-content .footer-description {
     width: 100%;
   }
 }
