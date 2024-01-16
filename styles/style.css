@@ -98,7 +98,7 @@ nav span {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("/Images/banner-bg.png");
+    url("../Images/banner-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
