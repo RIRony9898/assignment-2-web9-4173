@@ -347,10 +347,10 @@ nav span {
 }
 
 .newsletter .newsletter-img {
-  width: 48%;
+  /* width: 48%; */
   position: relative;
-  width: 672px;
-  height: 422px;
+  /* width: 672px; */
+  /* height: 422px; */
 }
 
 .newsletter .newsletter-img .img-banner {
@@ -359,8 +359,8 @@ nav span {
   background: #ff5400;
   padding: 30px;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 50px;
+  right: 10px;
 }
 
 .newsletter .newsletter-img .img-banner .img-banner-title {
@@ -388,9 +388,9 @@ footer {
 }
 
 footer .logo {
-  display: flex;
-  /* justify-content: center;
-    align-items: center; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   gap: 16px;
 }
 
@@ -404,8 +404,8 @@ footer span {
   color: var(--primary-color);
 }
 
+
 .footer-content .footer-description {
-  width: 765px;
   text-align: center;
   margin: 30px auto;
 }
@@ -414,7 +414,6 @@ footer span {
   text-align: center;
   display: flex;
   justify-content: center;
-  /* border: 2px solid red; */
 }
 
 .footer-content .social-site a {
