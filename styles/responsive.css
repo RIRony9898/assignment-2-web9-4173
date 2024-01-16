@@ -77,6 +77,24 @@
     margin-bottom: 16px;
   }
 
+  .discount .discount-card-1 {
+    justify-content: first baseline;
+  }
+
+  .discount .discount-card-1 .card-text {
+    padding: 20px;
+    margin: 0px auto 10px;
+  }
+  .discount .discount-card-2 {
+    justify-content: first baseline;
+  }
+
+  .discount .discount-card-2 .card-text {
+    padding: 20px;
+    margin: 0px auto 10px;
+  }
+
+
   .video img {
     width: 100%;
   }
