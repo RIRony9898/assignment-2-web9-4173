@@ -305,7 +305,7 @@ nav span {
 }
 
 .discount .discount-card-1 {
-  background: url("/Images/discount-1.png");
+  background: url("../Images/discount-1.png");
   height: 500px;
   border-radius: 16px;
   margin-bottom: 10px;
@@ -315,7 +315,7 @@ nav span {
 }
 
 .discount .discount-card-2 {
-  background: url("/Images/discount-2.png");
+  background: url("../Images/discount-2.png");
   height: 500px;
   border-radius: 16px;
   margin-bottom: 10px;
